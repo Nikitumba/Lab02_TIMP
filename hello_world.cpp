@@ -1,5 +1,8 @@
-include <iostream>
+#include <iostream>
 using namespace std;
 int main(){
-count <"Hello world";
+cout << "Введите ваше имя";
+string name;
+cin >> name;
+cout <<"Hello world from " << name;
 }
